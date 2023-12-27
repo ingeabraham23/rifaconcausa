@@ -6,6 +6,9 @@ import licuadora from "./assets/licuadora.png";
 import plancha from "./assets/plancha.png";
 import cobertor from "./assets/cobertor.jpg";
 import tiroides from "./assets/tiroides.jpg";
+import monjitaayotoxco from "./assets/monjita-ayotoxco.jpg";
+import egresohospital from "./assets/egreso-hospital.jpg";
+import recetaayotoxco from "./assets/recetaayotoxco.jpg";
 import "./App.css";
 
 function App() {
@@ -119,26 +122,39 @@ function App() {
           </p>
           <p>
             Sin embargo, la persistencia de los síntomas llevó a una nueva fase
-            de tratamiento. El jueves 14 de diciembre de 2023, el paciente fue
-            ingresado al Hospital General de Teziutlán. Actualmente, se
+            de tratamiento. El miercoles 13 de diciembre de 2023, el paciente
+            fue ingresado al Hospital General de Teziutlán. Actualmente, se
             encuentra bajo cuidado médico continuo mientras los profesionales de
             la salud trabajan diligentemente para identificar la causa
             subyacente de la sialoadenitis bilateral y brindar el tratamiento
             más efectivo.
           </p>
           <p>
-            La situación se ha visto agravada por la incapacidad del paciente
-            para trabajar debido a su malestar, ya que lleva dos meses sin poder
-            desempeñar sus labores. Además, carece de seguro médico, lo que ha
-            resultado en gastos significativos y ninguna entrada económica. En
-            un esfuerzo por respaldarlo económicamente, se ha organizado una
-            rifa para recaudar fondos y ayudar a cubrir los costos médicos y el
-            sustento diario.
+            Después de ser dado de alta del Hospital General de Teziutlán el
+            martes 19 de diciembre de 2023, lamentablemente, el paciente no
+            experimentó ninguna mejora; de hecho, sus síntomas empeoraron
+            considerablemente, con una inflamación más pronunciada. Ante esta
+            situación, el miércoles 20 de diciembre de 2023, la familia decidió
+            llevarlo a consulta con otro médico en Ayotoxco de Gro. Pue.
           </p>
           <p>
-            El paciente y su familia enfrentan este desafío con valentía,
-            confiando en la experiencia de los médicos y en la esperanza de una
-            pronta recuperación.
+            En esta nueva fase de tratamiento, el paciente está acudiendo
+            diariamente a que un médico especializado en acupuntura lo trate. El
+            enfoque de este tratamiento es ayudar a liberar el líquido que se ha
+            acumulado, agravando la condición de sialoadenitis bilateral. La
+            situación ha llegado al punto en el que el paciente ya no puede
+            caminar, lo que agrega un nivel adicional de complejidad y desafío a
+            su situación.
+          </p>
+          <p>
+            La familia continúa enfrentando estos desafíos con valentía,
+            confiando en la experiencia del nuevo médico y en la esperanza de
+            que este enfoque de tratamiento pueda brindar la tan necesaria
+            mejoría. En este difícil momento, el apoyo emocional y financiero de
+            la comunidad es más crucial que nunca. La rifa organizada sigue
+            siendo una herramienta fundamental para recaudar fondos y ayudar a
+            cubrir los crecientes costos médicos y las necesidades diarias del
+            paciente y su familia.
           </p>
         </div>
       </div>
@@ -155,11 +171,33 @@ function App() {
         </p>
       </div>
       <div className="contenedor-premio">
-        <h2 style={{ textAlign: "center" }}>PEDRO LUCAS FIDEL.</h2>
+        <h2 style={{ textAlign: "center" }}>INGRESO URGENCIAS.</h2>
         <img src={monjita} />
         <p>
           INTERNADO EN EL HOSPITAL GENERAL DE TEZIUTLAN. JUEVES 14 DE DICIEMBRE
           DE 2023
+        </p>
+      </div>
+      <div className="contenedor-premio">
+        <h2 style={{ textAlign: "center" }}>EGRESO URGENCIAS.</h2>
+        <img src={egresohospital} />
+        <p>
+          EGRESO DEL HOSPITAL GENERAL DE TEZIUTLAN. MARTES 19 DE DICIEMBRE
+          DE 2023
+        </p>
+      </div>
+      <div className="contenedor-premio">
+        <h2 style={{ textAlign: "center" }}>ACUPUNTURA.</h2>
+        <img src={monjitaayotoxco} />
+        <p>
+          CONSULTA EN AYOTOXCO MIERCOLES 20 DE DICIEMBRE DE 2023
+        </p>
+      </div>
+      <div className="contenedor-premio">
+        <h2 style={{ textAlign: "center" }}>RECETA.</h2>
+        <img src={recetaayotoxco} />
+        <p>
+          RECETA MEDICO NATURISTA
         </p>
       </div>
     </div>
