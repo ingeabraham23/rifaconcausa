@@ -40,25 +40,61 @@ function App() {
       <div className="contenedor-premio">
         <h2 style={{ textAlign: "center" }}>Primer premio.</h2>
         <img src={bateria} />
+        <p>Batería De Cocina 8 Piezas Madrid Óptima Verde Cinsa.</p>
         <p>
-          Batería de Cocina Cinsa Granito Jade Menta De 12 Piezas CINSA Granito
-          Jade Menta De 12 Piezas.
+          <a
+            href="https://www.mitienda.cinsa.com.mx/MLM-796819265-bateria-de-cocina-8-piezas-madrid-optima-verde-cinsa-_JM"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Detalles en tienda oficial.
+          </a>
         </p>
       </div>
       <div className="contenedor-premio">
         <h2 style={{ textAlign: "center" }}>Segundo premio.</h2>
         <img src={licuadora} />
-        <p>Licuadora Oster Reversible Roja 3 Velocidades.</p>
+        <p>
+          Licuadora Oster Osterizer 869-16G 1.25 L almendra con vaso de plástico
+          127V.
+        </p>
+        <p>
+          <a
+            href="https://www.mercadolibre.com.mx/licuadora-oster-osterizer-869-16g-125-l-almendra-con-vaso-de-plastico-127v/p/MLM17829087"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Detalles en Mercado libre.
+          </a>
+        </p>
       </div>
       <div className="contenedor-premio">
         <h2 style={{ textAlign: "center" }}>Tercer premio.</h2>
         <img src={plancha} />
-        <p>Plancha de Vapor Quick N Easy de Black & Decker, en Azul.</p>
+        <p>Plancha De Vapor Y Rocio Black And Decker Color Blanco/Azul</p>
+        <p>
+          <a
+            href="https://www.mercadolibre.com.mx/plancha-de-vapor-y-rocio-black-and-decker-irbd100-color-blancoazul/p/MLM8060631?pdp_filters=category:MLM10115#searchVariation=MLM8060631&position=7&search_layout=stack&type=product&tracking_id=aa46ebed-c60f-4852-8323-b76844046947"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Detalles en Mercado libre.
+          </a>
+        </p>
       </div>
       <div className="contenedor-premio">
         <h2 style={{ textAlign: "center" }}>Cuarto y quinto premio.</h2>
         <img src={cobertor} />
         <p>Cobertor providencia.</p>
+        <p>
+          <a
+            href="https://proviamiga.com/edredon-micrograbado-matrimonial-luxor.html"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Detalles en Tienda oficial.
+          </a>
+        </p>
       </div>
 
       <h1 style={{ textAlign: "center" }}>Dinámica.</h1>
@@ -89,6 +125,12 @@ function App() {
           En caso de contestar, la persona ganadora deberá presentarse en la
           terminal de Urbanos Rojos para recibir su premio antes de las 8 de la
           noche del mismo día, presentando su boleto o su INE.
+        </p>
+        <p>
+          {" "}
+          Si una persona resulta ganadora, quedaran descartados todos los
+          boletos que esten a su nombre, es decir que ya no podra ganar una
+          segunda vez, en caso de que un boleto a su nombre saliera ganador se procedera a sacar otro boleto.
         </p>
         <p>
           {" "}
@@ -182,23 +224,19 @@ function App() {
         <h2 style={{ textAlign: "center" }}>EGRESO URGENCIAS.</h2>
         <img src={egresohospital} />
         <p>
-          EGRESO DEL HOSPITAL GENERAL DE TEZIUTLAN. MARTES 19 DE DICIEMBRE
-          DE 2023
+          EGRESO DEL HOSPITAL GENERAL DE TEZIUTLAN. MARTES 19 DE DICIEMBRE DE
+          2023
         </p>
       </div>
       <div className="contenedor-premio">
         <h2 style={{ textAlign: "center" }}>ACUPUNTURA.</h2>
         <img src={monjitaayotoxco} />
-        <p>
-          CONSULTA EN AYOTOXCO MIERCOLES 20 DE DICIEMBRE DE 2023
-        </p>
+        <p>CONSULTA EN AYOTOXCO MIERCOLES 20 DE DICIEMBRE DE 2023</p>
       </div>
       <div className="contenedor-premio">
         <h2 style={{ textAlign: "center" }}>RECETA.</h2>
         <img src={recetaayotoxco} />
-        <p>
-          RECETA MEDICO NATURISTA
-        </p>
+        <p>RECETA MEDICO NATURISTA</p>
       </div>
     </div>
   );
